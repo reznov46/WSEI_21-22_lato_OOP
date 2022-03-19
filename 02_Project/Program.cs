@@ -14,7 +14,7 @@ namespace _02_Project
 
             var v1 = new Task("Taks A", TaskStatus.Waiting);
             var v2 = new Task("Taks A", TaskStatus.Waiting);
-            Console.WriteLine("student1 == student2: " + v1.Equals(v2)); // Output: student1 == student2: true
+            //Console.WriteLine("student1 == student2: " + v1.Equals(v2)); // Output: student1 == student2: true
 
 
             student1.AddTask("Taks A", TaskStatus.Waiting);

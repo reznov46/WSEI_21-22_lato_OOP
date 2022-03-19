@@ -39,10 +39,10 @@ namespace _02_Project
         }
         public override string ToString()
         {
-            return $"Student: {name} ({age} y.o.) \n Group: {group} \n {RenderTasks()}\n";
+            return $"Student: {name} ({age} y.o.)\nGroup: {group}\nTasks:\n{RenderTasks()}\n";
         }
 
-        internal bool Equals(Student other)
+        public bool Equals(Student other)
         {
             if (other == null)
                 return false;

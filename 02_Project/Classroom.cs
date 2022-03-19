@@ -19,7 +19,7 @@ namespace _02_Project
 
         public override string ToString()
         {
-            string s = $"Classroom: {name} \n ";
+            string s = $"Classroom: {name} \n";
                 foreach (Person p in persons)
                 {
                     s += $"{p}";

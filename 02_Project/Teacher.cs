@@ -6,7 +6,7 @@
         { }
         public override string ToString()
         {
-            return $"Teacher: {base.name} ({base.age} y.o.)";
+            return $"Teacher: {base.name} ({base.age} y.o.) \n";
         }
     }
 }
