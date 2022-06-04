@@ -15,11 +15,10 @@ namespace _03_Zadanie
         {
             foreach (var m in messages)
             {
-                using (ClientSocket)
-                {
+
                     byte[] bytes = Encoding.UTF8.GetBytes(m);
                     ClientSocket.Send(bytes);
-                }
+
             }
         }
         public void Dispose()
