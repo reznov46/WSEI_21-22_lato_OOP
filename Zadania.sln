@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Project", "02_Project\02_Project.csproj", "{514D136B-CB23-4BB8-8E4B-7CB4708027B7}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Files", "04_Files\04_Fil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Linq", "06_Linq\06_Linq.csproj", "{4899BDC8-ADB9-4A23-B02A-AB0D2E1032F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_EntityFramework", "07_EntityFramework\07_EntityFramework.csproj", "{7826817E-4B44-4D0B-B2F2-4CE482C06B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_EntityFramework", "07_EntityFramework\07_EntityFramework.csproj", "{7826817E-4B44-4D0B-B2F2-4CE482C06B37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsPrimes", "ThreadsPrimes\ThreadsPrimes.csproj", "{F62C15EF-7886-44D2-8C0F-2FC3DBB35A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7826817E-4B44-4D0B-B2F2-4CE482C06B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7826817E-4B44-4D0B-B2F2-4CE482C06B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7826817E-4B44-4D0B-B2F2-4CE482C06B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62C15EF-7886-44D2-8C0F-2FC3DBB35A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62C15EF-7886-44D2-8C0F-2FC3DBB35A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62C15EF-7886-44D2-8C0F-2FC3DBB35A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62C15EF-7886-44D2-8C0F-2FC3DBB35A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
